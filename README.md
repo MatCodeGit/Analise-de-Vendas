@@ -22,7 +22,7 @@ print(df.head())
 
 
 # ---------------------------------------------------------
-# 3. ANÁLISE DE NEGÓCIO (Sua primeira entrega!)
+# 3. ANÁLISE DE NEGÓCIO
 # ---------------------------------------------------------
 # Pergunta do Gestor: Quanto faturamos por Região?
 faturamento_regiao = df.groupby("Regiao")["Faturamento Total"].sum().reset_index()
