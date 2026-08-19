@@ -12,3 +12,7 @@ df = pd.read_excel("analise_vendas_2026.xlsx", sheet_name="Base_Vendas")
 
 # informa quantas linhas da base mostrar.
 print(df.head())
+
+
+
+
